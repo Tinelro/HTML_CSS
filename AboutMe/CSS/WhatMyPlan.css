@@ -1,0 +1,51 @@
+ .plan {
+     display: inline-flex;
+     background-color: #e7e3d5e6;
+     min-height: 92vh;
+     padding-bottom: 8vh;
+     align-items: center;
+ }
+ ul {
+     line-height: 9em;
+ }
+ li {
+     margin-left: 20%;
+     font-family: Georgia;
+     font-size: xx-large;
+     font-weight: bold;
+     text-shadow: 2px 2px #ff0000;
+ }
+ li:nth-child(2) {
+     margin-left: 25%;
+     color: darkred;
+ }
+ li:nth-child(3) {
+     margin-left: 30%;
+     color: seagreen;
+ }
+ li:nth-child(4) {
+     margin-left: 35%;
+     color: orange;
+ }
+ li:last-child {
+     margin-left: 40%;
+     color: yellow;
+ }
+ img {
+     float: right;
+     padding: 10%;
+     width: 22%;
+     height: 22%;
+     opacity: 0.1;
+     transition: opacity 2s, transform 2s;
+     border-radius: 30em;
+ }
+ img:hover {
+     opacity: 1;
+     transform: scale(0.8) rotateY(180deg);
+ }
+ .plan>div {
+     margin-top: 10vh;
+ }
+ 
+ 

@@ -1,0 +1,42 @@
+h1 {
+    color: #ab062c;
+}
+div>p {
+    display: block;
+    color: blue;
+    font-family: Georgia;
+    font-size: 1.5em;
+    padding-right: 3em;
+}
+div>p::first-letter {
+    color: red;
+    font-size: 2em;
+}
+p {
+    padding-left: 3em;
+}
+img:hover {
+    opacity: 1;
+}
+.me {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    background-color: #e7e3d5e6;
+    min-height: 92vh;
+}
+.me>div {
+    float: left;
+    margin-top: 6vw;
+    left: 3em;
+}
+.multimedia {
+    max-width: 30vw;
+    max-height: 15vh;
+}
+iframe {
+    margin-top: 20vh;
+    float: right;
+    margin-right: 5em;
+    width: 30vw;
+    border: solid 4px sandybrown;
+}
